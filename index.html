@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- js link -->
+    
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstraplink 2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar alani -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="px-2" src="https://seeklogo.com/images/B/bmw-logo-248C3D90E6-seeklogo.com.png" width="40"
+                alt="">
+            <a class="navbar-brand" href="#">BMW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" aria-current="page" href="Anasayfa">
+                        <a class="nav-link active" aria-current="page" href="#">Anasayfa <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Araclar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkimizda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fiyat Listesi</a>
+                    </li>
+                </ul>
+                <div class=" new mt-1 d-flex text-center gap-2 ">
+                    <h6><span class="badge bg-danger p-2 mt-2">Yeni</span> <span class="navbar-text">
+                        Essiz Surus Keyfi
+                    </span></h6>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar alani bitis -->
+    <!--karsilama alani  -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/giris1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>YENI BMW 5 SERISI SEDAN</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- karsilama alani bitis  -->
+    <!-- arac kartlari -->
+    <div class="d-flex mt-5 justify-content-evenly">
+        <div class="card" style="width: 18rem;">
+            <img src="images/car-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Goz Alici Kirmizi</h5>
+                <p class="card-text">Konforlu, sportif. Uzun yolculuklar icin mukemmel bir yol arkadasi </p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/car-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Sokaklarin Gozdesi</h5>
+                <p class="card-text">Sehir hayatina uygun, guvenli, gerektiginde pratik!!</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/car-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Ailece Konforlu Yolculuk</h5>
+                <p class="card-text">Uzun yolculuklarda konforunuzdan bir eksiklik hissetmeyeceksiniz.</p>
+                <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- arac kartlari bitis -->
+    <!-- yorumlar -->
+    <div class="d-flex justify-content-center align-center">
+        <div class="d-flex mt-5">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card w-50">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Harika Bir Araba</h5>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card w-50">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Test Surusu Inanilmazdi!</h5>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- yorumlat bitis -->
+    <!-- musteri hizmetleri -->
+    <h3 class="text-center mt-5">Musteri Hizmetleri</h3>
+    <div class="container overflow-hidden text-center bg-light rounded mt-5">
+        <div class="row gy-5 bg-secondary text-light">
+            <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Sercan Erturk</div>
+            </div>
+            <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Deniz Mansuroglu</div>
+            </div>
+            <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Mustafa Akyel</div>
+            </div>
+            <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Selim Arslan</div>
+            </div>
+        </div>
+    </div>
+    <!-- musteri hizmetleri bitis -->
+    <!-- tablo -->
+    <h3 class="text-center mt-5">Arac Siraniz</h3>
+    <table class="table table-dark table-hover mt-5 w-100">
+        <tr>
+            <th>SIRA</th>
+            <th>ISIM</th>
+            <th>TELEFON</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sercan</td>
+            <td>543 344 3334</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Selim</td>
+            <td>543 344 3234</td>
+        </tr>
+    </table>
+    <!-- tablo bitis -->
+
+    <!--form alani -->
+    <div class="contact mx-auto d-flex flex-column text-center  w-50 pt-4 mt-5">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Bize Ulasin</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="Email adresinizi giriniz">
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Sifrenizi giriniz">
+            <input type="number" class="form-control" id="exampleFormControlInput1"
+                placeholder="telefon numaranizi girinz">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Konu</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="btn btn-success">Gonder</button>
+    </div>
+    <!-- form alani bitis  -->
+    <!-- footer -->
+    <footer class="bg-dark text-light p-3 mt-5">
+        <div class="container d-flex justify-content-around">
+            <p>&#169 2024. Tum Haklari Saklidir</p>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </footer>
+
+    <!--footer bitis-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
